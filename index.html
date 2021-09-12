@@ -1,0 +1,64 @@
+<html>
+<head>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/index-style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="home">
+
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="header-content">
+             <h2><span></span></h2>
+            </div>
+        </div>
+        <div class="container py-5 fContent">
+            <h3 class="title2">Bookmark Your Favorite Sites</h3>
+
+            <label class="form-label">Site Name</label>
+            <input class="form-control " id="siteName" placeholder="Bookmark Name">
+
+
+            <label class="form-label">Site URL</label>
+            <input class="form-control" id="webSiteUrl" placeholder="Website URL">
+
+            <button id="AddBtn" class="btn1" onclick="addWebSite()" >Add WebSite</button>
+
+            <br><br>
+            <input  onkeyup="searchWebSite(this.value)" class="searchh form-control  m-auto" placeholder="Search WebSite">
+
+        </div>
+
+
+       <div class="container">
+        <table class="table">
+            <thead class="text-center">
+
+                <th>Website Name</th>
+                <th>Website URL</th>
+                <th>Update</th>
+                <th>Delete</th>
+                
+            </thead>
+            <tbody id ="tBody" class=" text-center">
+
+            </tbody>
+        </table>
+       </div>
+    </section>
+
+
+
+
+
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

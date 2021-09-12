@@ -1,0 +1,130 @@
+body{
+    background-image: url(../img/g.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+    font-family: 'Kaisei Tokumin', serif; 
+}
+
+.home{
+   
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../img/1.jpg) ;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;  
+}
+.header-content{
+  width: 50%;
+  position: absolute;
+  top: 70%;
+  left: 75%;
+  transform: translate(-50%,-20%);
+}
+
+   
+.header-content span{
+    position: absolute;
+    top: 48%;
+    left: 35%;
+    z-index: 1;
+    font-size: 45px;
+    color: burlywood;
+
+}
+.header-content span::before{
+    content: "";
+    position: absolute;
+    top: 48%;
+    left:35%;
+    z-index:1;
+    animation: typing 10s infinite 2s;
+}
+@keyframes typing {
+    5%{content: "B";}
+    10%{content: "BO";}
+    15%{content: "BOO";}
+    20%{content: "BOOK";}
+    25%{content: "BOOKM";}
+    30%{content: "BOOKMA";}
+    35%{content: "BOOKMAR";}
+    40%{content: "BOOKMARK";}
+    45%{content: "BOOKMARKE";}
+    50%{content: "BOOKMARKER";}
+    55%{content: "BOOKMARKE";}
+    60%{content: "BOOKMARK";}
+    65%{content: "BOOKMAR";}
+    70%{content: "BOOKMA";}
+    75%{content: "BOOKM";}
+    80%{content: "BOOK";}
+    85%{content: "BOO";}
+    90%{content: "BO";}
+    95%{content: "B";}
+    100%{content:" ";}
+
+    
+}
+
+.title1{
+
+ font-size: 40px;  
+ margin-top: 3rem;
+ margin-left: 4rem;
+ padding-bottom: 50px;
+ padding-top: 50px;
+ padding-right: 3.5rem;
+ color: rgb(202, 177, 141);
+
+ 
+}
+.title2{
+    /* background-color: chocolate; */
+    width: 40%;
+    margin: auto;
+    
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.fContent{
+  background-color: rgba(0,0,0,0.3 );
+  width: 70%;
+  margin: auto;
+  border-radius: 8px;
+}
+.fContent input{
+  
+    display: block;
+    margin: auto;
+    padding: 10px 30rem 10px 1px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+
+}
+.searchh{
+    width:60%;
+    padding: 10px 100px 10px 2px;
+}
+.fContent label{
+   
+    margin: auto;
+    text-align: center;
+    margin-left: 47%;
+}
+.btn1{
+    margin-left: 47%;
+    text-align: center;
+    padding: 10px 25px ;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.myBtn{
+    background-color: rgb(0, 0, 0);
+    color: blanchedalmond;
+    padding: 5px 20px;
+    border-radius: 8px;
+}
+.myBtn a{
+    text-decoration: none;
+    color: blanchedalmond;
+}
